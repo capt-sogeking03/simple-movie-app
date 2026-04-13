@@ -1,0 +1,15 @@
+.c-chips {
+  display: flex;
+  gap: var(--space-sm);
+  overflow-x: auto;
+
+  /* The Mask Logic */
+  -webkit-mask-image: linear-gradient(to right, black 85%, transparent 100%);
+  mask-image: linear-gradient(to right, black 85%, transparent 100%);
+
+  scrollbar-width: none;
+}
+
+.c-chips::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,13 @@
+.c-search-bar input {
+  background: var(--color-surface-2);
+  color: var(--color-text);
+}
+
+.c-search-bar input:hover {
+  background: var(--color-surface-hover);
+}
+
+.c-search-bar input:focus {
+  background: var(--color-surface-2);
+  outline: 2px solid var(--color-surface-hover);
+}

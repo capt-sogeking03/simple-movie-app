@@ -1,0 +1,32 @@
+.c-movie--container {
+  display: flex;
+  gap: var(--space-sm);
+  overflow-x: auto;
+
+  scrollbar-width: none;
+
+  /* The Mask Logic */
+  -webkit-mask-image: linear-gradient(to right, black 85%, transparent 100%);
+  mask-image: linear-gradient(to right, black 85%, transparent 100%);
+}
+
+.c-movie--container::-webkit-scrollbar {
+  display: none;
+}
+
+.c-movie--container img {
+  border-radius: var(--radius-md);
+}
+
+.c-movie--container p {
+  font-size: var(--fs-sm);
+}
+
+.c-movie-card {
+  min-width: 130px;
+}
+
+.c-movie--genre {
+  font-size: var(--fs-md);
+  font-weight: var(--fw-semibold);
+}

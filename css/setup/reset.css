@@ -1,0 +1,111 @@
+@import "../setup/font-face.css";
+
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margins and padding for common elements */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 3. Allow percentage-based heights in the application */
+html,
+body {
+  height: 100%;
+  font-family: "Inter", sans-serif;
+  background: rgb(33, 33, 33);
+}
+
+/* 4. Improve text rendering and set accessible line-height */
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+}
+
+/* 5. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Remove built-in form typography styles */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  border: none;
+}
+
+/* Modern browsers (Chrome, Firefox, Edge, Safari) */
+input::placeholder {
+  color: #999; /* Example: Bright gray */
+  opacity: 1; /* Firefox lowers the opacity by default, so set to 1 */
+}
+
+/* Individual browser support */
+input::-webkit-input-placeholder {
+  /* Edge, Chrome, Safari */
+  color: #999;
+}
+
+input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #999;
+}
+
+input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #999;
+  opacity: 1;
+}
+
+/* 7. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+ul {
+  list-style: none;
+}
+
+/* 8. Create a root stacking context (optional but helpful for SPAs) */
+#root,
+#__next {
+  isolation: isolate;
+}
+
+#root {
+  min-height: 100vh;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-primary);
+
+  display: flex;
+  flex-direction: column;
+
+  max-width: 1200px;
+  margin: 0 auto;
+  /* padding: var(--space-lg); */
+
+  box-sizing: border-box;
+}

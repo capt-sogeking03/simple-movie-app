@@ -1,0 +1,12 @@
+.o-search-bar input {
+  width: 100%;
+  padding: var(--space-sm) var(--space-md);
+  outline: none;
+  border-radius: var(--radius-md);
+}
+
+/* @media screen and (width >= 600px) {
+  .o-search-bar input {
+    min-width: 100%;
+  }
+} */

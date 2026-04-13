@@ -1,0 +1,48 @@
+:root {
+  /* -- Typography -- */
+  --font-primary: "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "DM Mono", monospace;
+  --font-display: "Playfair Display", serif;
+
+  /* Font size scale */
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.25rem;
+  --fs-xl: 1.5rem;
+  --fs-2xl: 2rem;
+
+  /* Font weights */
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  /* Line heights */
+  --lh-tight: 1.2;
+  --lh-normal: 1.5;
+  --lh-loose: 1.8;
+
+  /* Color */
+  --color-bg: #0a0b0e;
+  --color-surface: #12141a;
+  --color-surface-2: #1a1d26;
+  --color-surface-hover: #2c3141;
+
+  --color-border: #252836;
+
+  --color-text: #fff;
+
+  /* -- Spacing scale -- */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 40px;
+
+  /* -- Radius & Shadows -- */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.4);
+}

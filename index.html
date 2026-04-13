@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Watchflix</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" type="module" defer></script>
+  </head>
+  <body>
+    <div id="root">
+      <header class="u-p-md">
+        <search class="o-search-bar c-search-bar">
+          <input id="search-input" type="text" placeholder="Search..." />
+        </search>
+      </header>
+      <section id="genre" class="c-chips u-ph-md">
+        <ul class="o-flex o-flex--overflow u-p-0" role="group">
+          <li class="c-button o-effect--fade" role="button" aria-pressed="true">All</li>
+          <li class="c-button" role="button" aria-pressed="false">Adventure</li>
+          <li class="c-button" role="button" aria-pressed="false">Cartoon</li>
+          <li class="c-button" role="button" aria-pressed="false">Comedy</li>
+          <li class="c-button" role="button" aria-pressed="false">Drama</li>
+          <li class="c-button" role="button" aria-pressed="false">Fantasy</li>
+        </ul>
+      </section>
+
+      <!-- main -->
+      <main>
+        <h2 class="u-p-md c-movie--genre">Trending</h2>
+
+        <div id="movie-container" class="c-movie--container u-pl-md u-pr-xl">
+          <!-- Movie items -->
+          <div class="c-movie-card">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjA5NDQyMjc2NF5BMl5BanBnXkFtZTcwMjg5ODcyMw@@._V1_SX300.jpg" alt="img" />
+            <p>How to Train Your dragon</p>
+            <div>
+              <p>2010</p>
+              <p>rating</p>
+            </div>
+          </div>
+
+          <div class="c-movie-card">
+            <img src="img/image 2.jpg" alt="img" />
+            <p>How to Train Your dragon</p>
+            <div>
+              <p>2010</p>
+              <p>rating</p>
+            </div>
+          </div>
+
+          <div class="c-movie-card">
+            <img src="img/image 2.jpg" alt="img" />
+            <p>How to Train Your dragon</p>
+            <div>
+              <p>2010</p>
+              <p>rating</p>
+            </div>
+          </div>
+
+          <div class="c-movie-card">
+            <img src="img/image 2.jpg" alt="img" />
+            <p>How to Train Your dragon</p>
+            <div>
+              <p>2010</p>
+              <p>rating</p>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+.o-card {
+  min-width: 400px;
+  border-radius: var(--radius-md);
+}
+
+.o-card--sm {
+  padding: var(--space-md);
+}
+
+.o-card--lg {
+  padding: var(--space-xl);
+}

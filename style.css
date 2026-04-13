@@ -1,0 +1,33 @@
+@import "./css/setup/reset.css";
+@import "./css/setup/variable.css";
+@import "./css/object/o-card.css";
+@import "./css/object/o-layout.css";
+@import "./css/object/o-search-bar.css";
+@import "./css/component/c-movie-card.css";
+@import "./css/component/c-search-bar.css";
+@import "./css/component/c-button.css";
+@import "./css/component/c-chips.css";
+@import "./css/component/c-movie-container.css";
+@import "./css/utility/u-spacing.css";
+
+header {
+  width: 100%;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+/* .search-bar {
+  width: 100%;
+  padding: 16px 24px;
+  font-family: "Inter", sans-serif;
+  text-align: left;
+  font-size: 1rem;
+  background: rgb(65, 65, 65, 0.4);
+  color: #999;
+  cursor: pointer;
+  border-radius: 16px;
+  box-sizing: border-box;
+  border: 2px solid transparent;
+  transition: background 0.2s ease;
+} */
