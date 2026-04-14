@@ -8,7 +8,9 @@
 @import "./css/component/c-button.css";
 @import "./css/component/c-chips.css";
 @import "./css/component/c-movie-container.css";
+@import "./css/component/c-detail-screen.css";
 @import "./css/utility/u-spacing.css";
+@import "./css/utility/u-position.css";
 
 header {
   width: 100%;

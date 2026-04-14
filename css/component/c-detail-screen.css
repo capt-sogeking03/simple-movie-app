@@ -1,0 +1,36 @@
+.c-detail {
+  object-fit: cover;
+  padding: var(--space-md);
+  border: 2px solid var(--color-surface-2);
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  min-width: 100%;
+  min-height: 100%;
+  margin-inline: auto;
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.c-detail--container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.c-detail--container img {
+  border-radius: 20px;
+}
+
+.c-detail--highlight {
+  background: rgb(0, 0, 0, 0.8);
+  padding: var(--space-sm);
+  border-radius: 10px;
+}
